@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameLogic\Bike.cs" />
+     <Compile Include="Assets\Scripts\Prototyping\Camera\FollowCamera.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/ADMIN/Documents/GitHub/theshwetapatil/Game-Jam-Certification-Course/Prototype/Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
