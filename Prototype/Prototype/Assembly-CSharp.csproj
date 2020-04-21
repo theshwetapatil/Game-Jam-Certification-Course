@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\Prototyping\Camera\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\Prototyping\Collectable\TriggerEvent.cs" />
      <Compile Include="Assets\Scripts\Prototyping\Score\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\Prototyping\Timer\GameTimer.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/ADMIN/Documents/GitHub/theshwetapatil/Game-Jam-Certification-Course/Prototype/Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
