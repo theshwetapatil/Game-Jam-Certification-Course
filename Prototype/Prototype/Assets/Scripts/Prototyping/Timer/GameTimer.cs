@@ -77,6 +77,10 @@ public class GameTimer : MonoBehaviour
     }
     private IEnumerator RunTimer(float startTime)
     {
+        timerState = TimerState.Running;
+        currentTime = startTime;
+        UpdateUI();
+
         while (timerState == TimerState.Running || timerState == TimerState.Paused)
         {
             yield return new WaitForEndOfFrame();
