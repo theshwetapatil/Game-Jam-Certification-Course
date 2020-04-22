@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameLogic\Bike.cs" />
+     <Compile Include="Assets\Scripts\Prototyping\Audio\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Prototyping\Camera\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\Prototyping\Collectable\TriggerEvent.cs" />
      <Compile Include="Assets\Scripts\Prototyping\Score\ScoreManager.cs" />
