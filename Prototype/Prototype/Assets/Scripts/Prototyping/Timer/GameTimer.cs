@@ -90,7 +90,7 @@ public class GameTimer : MonoBehaviour
                 IncrementTimer();
             }
 
-            if (timerType == TimerType.Countdown && currentTime <=0)
+            if (timerType == TimerType.Countdown && currentTime <= 0)
             {
                 timerState = TimerState.Finished;
                 onTimeOver.Invoke();
