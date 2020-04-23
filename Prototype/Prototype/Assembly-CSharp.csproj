@@ -53,12 +53,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Art\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
      <Compile Include="Assets\Scripts\GameLogic\Bike.cs" />
      <Compile Include="Assets\Scripts\Prototyping\Audio\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Prototyping\Camera\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\Prototyping\Collectable\TriggerEvent.cs" />
      <Compile Include="Assets\Scripts\Prototyping\Score\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\Prototyping\Timer\GameTimer.cs" />
+     <None Include="Assets\Art\AurynSky\Gems Ultimate Pack\READ ME.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/ADMIN/Documents/GitHub/theshwetapatil/Game-Jam-Certification-Course/Prototype/Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

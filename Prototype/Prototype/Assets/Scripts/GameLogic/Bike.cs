@@ -58,7 +58,8 @@ public class Bike : MonoBehaviour
 
     public void ApplySpeed()
     {
-        this.transform.position += this.transform.forward * speed * Time.deltaTime; 
+        this.transform.position += this.transform.forward * speed * Time.deltaTime;
+        this.transform.GetComponent<AudioSource>().pitch = (speed / maxSpeed) * 3f;
     }
 
     private void CollisionCheck()
@@ -72,6 +73,8 @@ public class Bike : MonoBehaviour
             Vector3 newDirection = Vector3.Reflect(this.transform.forward, hitOut.normal);
 
             this.transform.rotation = Quaternion.LookRotation(newDirection, this.transform.up);
+
+            GameObject.FindObjectOfType<AudioManager>().PlaySfx("crash");
         }
 	}
 }
