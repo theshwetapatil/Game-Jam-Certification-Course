@@ -59,4 +59,12 @@ public class ScoreManager : MonoBehaviour
             item.Reset();
         }
     }
+
+    public void Update()
+    {
+        if (Input.GetButton("Cancel"))
+        {
+            Application.Quit();
+        }
+    }
 }
